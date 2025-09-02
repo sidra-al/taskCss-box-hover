@@ -65,7 +65,7 @@ p {
 
 .half-circle {
     position: absolute;
-    top: -65px;
+    top: -3%;
     left: 50%;
     transform: translateX(-50%);
     width: 220px;
@@ -73,8 +73,20 @@ p {
     background-color: rgb(231, 7, 201);
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
-    z-index: -1;
 }
+
+
+/* .box:hover {
+    position: absolute;
+    top: -3%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 220px;
+    height: 100px;
+    background-color: rgb(231, 7, 201);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+} */
 
 .icons {
     display: flex;
@@ -86,7 +98,7 @@ p {
     width: 210px;
     justify-content: center;
     align-items: center;
-    margin-top: 27%;
+    margin-top: 35%;
     opacity: 0;
     transition: opacity 0.3s;
 }
